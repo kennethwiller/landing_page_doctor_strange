@@ -1,23 +1,82 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /*----------------------------------
     0 - geral
-    
-    
+    1 - header 
+    2 - main
+    3 - footer
 ----------------------------------*/
 
 /*----------------------------------
     0 - formatações gerais                  
 ----------------------------------*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
 body {
     height: 100vh;
     background: linear-gradient(90deg, #000 , #000d 35%, #0000), url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 128px 50px 128px;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*----------------------------------
+    1 - header                  
+----------------------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.links-container {
+    display: flex;
+    gap: 32px;
+}
+
+.links-container a {
+    padding: 6px;
+    text-shadow: 2px 2px 2px #000;
+    transition: all .1s;
+}
+
+.links-container a:hover {
+    background-color: #E62721;
+    border-radius: 3px;
+}
+
+/*----------------------------------
+    2 - main                  
+----------------------------------*/
+
+main {
+    background-color: tomato;
+    flex-grow: 1;
+}
+
+
+/*----------------------------------
+    3 - footer                  
+----------------------------------*/
+
+footer {
+    background-color: violet;
+    height: 21px;
+}
