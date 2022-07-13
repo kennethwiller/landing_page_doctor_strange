@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------------
+    0 - geral
+    
+    
+----------------------------------*/
+
+/*----------------------------------
+    0 - formatações gerais                  
+----------------------------------*/
+
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, #000 , #000d 35%, #0000), url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
